@@ -107,6 +107,6 @@ Each level contains its own **frontend** and **backend** codebases. You must run
 
 8. **Follow the same for level 2 also**
 
-# 📄 License
+## 📄 License
 © 2023 WSA. All rights reserved.
 
