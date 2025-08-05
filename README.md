@@ -49,8 +49,9 @@ Each level contains its own **frontend** and **backend** codebases. You must run
 - Error handling for network calls.
 
 ## Screenshot: 
+![Level 1 Screenshot](level1/frontend/public/wsa-todo-app-level1-screenshot.jpg)
 
-**Live Demo** : [Click here to view Level 1](https://wsa-quiz-app-level1.netlify.app/)
+**Live Demo** : [Click here to view Level 1](https://wsa-todo-app-level1.netlify.app/)
 
 ---
 
@@ -69,44 +70,43 @@ Each level contains its own **frontend** and **backend** codebases. You must run
  - Board View & Sidebar for Task Lists.
 
 ## Screenshot: 
+![Level 2 Screenshot](level2/frontend/public/wsa-todo-app-level2-screenshot.jpg)
 
-**Live Demo** : [Click here to view Level 1](https://wsa-quiz-app-level2.netlify.app/)
+**Live Demo** : [Click here to view Level 2](https://wsa-todo-app-level2.netlify.app/)
 
 ---
 ## 📌 How to Run Locally
 
 1. **Clone the Repository:** <br>
-   git clone <REPO_URL>
-   cd your-project-directory
+   **git clone** https://github.com/EmertxeInfoTech/wsa-todo-app.git<br>
+   **cd** your-project-directory
 
 2. **Install Dependencies:** <br>
-   cd level1/frontend
-   npm install
-
-   cd level1/backend
-   npm install
+   **cd** level1/frontend<br>
+   **npm** install<br>
+   **cd** level1/backend<br>
+   **npm** install
    
 3. **Follow the same for level 2 also** <br>
 
 4. **In each backend folder, create a .env file:** <br>
-   PORT=8000
-   MONGODB_URL=mongodb://localhost:27017/wsa_todo
+   **PORT**=8000<br>
+   **MONGODB_URL**=mongodb://localhost:27017/wsa_todo
    
 6. **In each frontend folder, create a .env file:** <br>
-   REACT_APP_API_BASE_URL=http://localhost:8000 <br
+   **REACT_APP_API_BASE_URL**=http://localhost:8000 <br>
 
 7. **Start both frontend and backend for each level in separate terminals.** <br>
+   **Backend**<br>
+   **cd** level1/backend <br>
+   **npm** start
 
-   **Backend**
-   cd level1/backend
-   npm start
+   **Frontend**<br>
+   **cd** level1/frontend<br>
+   **npm** start
 
-   **Frontend**
-   cd level1/frontend
-   npm start
+8. **Follow the same for level 2 also**
 
-9. **Follow the same for level 2 also**
-
-## 📄 License
+# 📄 License
 © 2023 WSA. All rights reserved.
 
